@@ -13,26 +13,26 @@ public class primenumbers {
 		number = sc.nextInt();
 		int flag = 0;
 		if (number == 0 || number == 1) {
-			System.out.println(number +  "The number is not a prime"); 
+			System.out.println( "The number is not a prime"); 
 			}
 			
 		else {
 			int middleNumber  = number / 2;
 			for(int i=2; i<=middleNumber; i++) {
 			if(number % i == 0) {
-		    System.out.println(number + "The number is not prime"); }
+		    System.out.println( "The number is not prime"); 
 		    flag = 1; 
             break; 
 		}
 	
-        if (flag == 0) {
-		System.out.println(number + " is prime number");
-        }
+			else 
+		System.out.println( "is prime number");
+        
+			}
+			}
 		}
-		
-	}
-}
 
+	}
 
 	
 
